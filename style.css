@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #292931;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.container {
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 700px;
+}
+
+.calculator {
+    display: flex;
+    align-items: end;
+    margin-bottom: 30px;
+    height: 50%;
+}
+
+.calc__items {
+    display: flex;
+    align-items: center;
+}
+
+.result_container {
+    height: 50%;
+    padding: 1px;
+}
+
+input {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 10px 10px;
+    width: 150px;
+    height: 20px;
+}
+
+input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#firstNum {
+    margin-right: 20px;
+}
+
+select {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 5px;
+}
+
+option {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#secondNum {
+    margin: 0px 20px;
+}
+
+#equals {
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    padding: 1px 13px;
+}
+
+#result {
+    margin-left: 20px;
+}
+
+.result_item {
+    cursor: pointer;
+}
+
+

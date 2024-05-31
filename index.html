@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calc__items">
+                <input type="text" id="firstNum" placeholder="0">
+
+                <select class="operators" id="operators">
+                    <option id="add">+</option>
+                    <option id="subtract">-</option>
+                    <option id="multiply">*</option>
+                    <option id="divide">/</option>
+                </select>
+        
+                <input type="text" id="secondNum" placeholder="0">
+        
+                <button id="equals">=</button>
+        
+                <span id="result">0</span>
+            </div>
+        </div>
+
+        <div class="result_container"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
